@@ -19,5 +19,5 @@ class ChromaIndex:
         query_engine = self.index.as_query_engine(
             chroma_collection=self.chroma_collection
         )
-        response = query_engine.query(query_value)
+        response = query_engine.retrieve(query_value)
         print(response)
