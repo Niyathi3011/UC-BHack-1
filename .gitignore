@@ -4,6 +4,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+src/arxiv_engine/dataset_domain/AI/
+src/arxiv_engine/dataset_domain/CL/
+src/arxiv_engine/dataset_domain/CV/
 
 # C extensions
 *.so
